@@ -1,0 +1,60 @@
+body {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #272030;
+    color: #e7ffff;
+}
+
+.logo {
+    font-family: liber;
+    font-weight: bold;
+    font-size: 24px;
+    color: #087167;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e7ffff;
+    color: #272030;
+    margin: 20px;
+    padding: 12px;
+    border-radius: 8px;
+    position: fixed;
+    width: 93%;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #272030;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.navbar li :hover{
+    background-color: #272030;
+    color: #e7ffff;
+    margin-right: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.profile {
+    width: 120px;
+    height: 140px;
+    border-radius: 160px;
+}
+
+img {
+    border-radius: 8px;
+}
