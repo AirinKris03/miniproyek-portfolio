@@ -91,12 +91,13 @@ body {
 }
 
 .about-container {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: auto auto;
-      margin: 24px;
-      align-items: center;
-    }
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    margin: 24px;
+    gap: 24px;
+    align-content: center;
+  }
 
     .about-image {
       flex: 1 1 40%;
@@ -111,6 +112,7 @@ body {
 
     .about-text h2 {
       font-size: 36px;
+      margin-top: 44px;
     }
 
     .about-text p {
@@ -152,11 +154,98 @@ body {
       color: #3498DB;
     }
 
+    .hire-me {
+        flex-direction: column;
+        align-items: center;
+        margin: 24px;
+    }
+
+    .hire-me h2 {
+      font-size: 36px;
+    }
+
+    .hire-me i {
+      margin-right: 16px;
+      font-size: 32px;
+    }
+
+    .hire-me h3 {
+      font-size: 24px;
+    }
+
+    .hire-me p {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+.reasons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto;
+    gap: 40px;
+}
+
+.reason-card {
+    border: 1px solid #676872;
+    padding: 12px;
+    border-radius: 8px;
+    color: #e7ffff;
+    background-color: #232426;
+    width: 320px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto
+}
+
+.reason-card h3 {
+  color: #77C1F9;
+  margin-bottom: 0.5rem;
+}
+
+.skills {
+    margin-top: 32px;
+}
+
+.skills-title {
+  margin-bottom: 1rem;
+  color: #e7ffff;
+  margin-top: 32px;
+}
+
+.skills h2 {
+    font-size: 32px;
+    text-align: center;
+    margin: 8px;
+    line-height: 24px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: auto;
+  justify-items: center;
+  margin-top: 32px;
+}
+
+.skill-item {
+  background-color: #1D384B;
+  color: #e7ffff;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 800;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#porto {
+    margin: 24px;
+}
+
 .porto-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: auto auto;
       gap: 40px;
+      margin-top: 32px;
     }
 
     .porto-container :hover {
@@ -171,8 +260,6 @@ body {
         background-color: #232426;
     }
 
-    
-
     .porto-item img {
       max-width: 94%;
       height: auto;
@@ -180,6 +267,10 @@ body {
       border-radius: 8px;
       align-content: center;
       margin: 0 auto;
+    }
+
+    .porto-title {
+        margin-top: 80px;
     }
 
     .porto-title i {
