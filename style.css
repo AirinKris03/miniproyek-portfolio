@@ -6,6 +6,7 @@ body {
     color: #e7ffff;
     margin: 24px;
     padding: 16px;
+    font-family: poppins;
 }
 
 .logo {
@@ -80,6 +81,10 @@ body {
     margin-top: 20px;
 }
 
+.home-container i {
+    margin-right: 8px;
+}
+
 .home-container a:hover {
     background-color: #e7ffff;
     color: #3498DB;
@@ -89,20 +94,62 @@ body {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto auto;
-      gap: 40px;
+      margin: 24px;
+      align-items: center;
     }
 
     .about-image {
       flex: 1 1 40%;
+      width: 400px;
+      height: 400px;
+      margin-top: 40px;
     }
 
     .about-text {
       flex: 1 1 60%;
     }
 
+    .about-text h2 {
+      font-size: 32px;
+    }
+
+    .about-text p {
+      font-size: 24px;
+      line-height: 1.5;
+      margin-left: 32px;
+      text-align: justify;
+    }
+
+    .about-text span {
+      color: #77C1F9;
+      font-weight: bold;
+    }
+
     .about-image img {
       max-width: 80%;
       border-radius: 8px;
+    }
+
+    .about-text i {
+      margin-right: 16px;
+      font-size: 32px;
+    }
+
+    .cv {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bolder;
+      color: #e7ffff;
+      background-color: #3498DB;
+      padding: 12px 24px;
+      border-radius: 8px;
+      margin-top: 20px;
+      margin-left: 32px;
+    }
+
+    .cv:hover {
+      background-color: #e7ffff;
+      color: #3498DB;
     }
 
 .porto-container {
