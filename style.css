@@ -53,7 +53,7 @@ body {
 
 .home-container {
     background: #272030;
-    background: linear-gradient(45deg, rgba(39, 32, 48, 1) 0%, rgba(52, 152, 219, 1) 100%);
+    background: linear-gradient(30deg, rgba(39, 32, 48, 1) 8%, #275A7F 50%, rgba(39, 32, 48, 1) 92%);
     border-radius: 8px;
     width: auto;
     display: flex;
@@ -67,7 +67,7 @@ body {
     font-size: 40px;
 }
 .home-container h2 {
-    font-size: 32px;
+    font-size: 36px;
 }
 
 .home-container a {
@@ -110,7 +110,7 @@ body {
     }
 
     .about-text h2 {
-      font-size: 32px;
+      font-size: 36px;
     }
 
     .about-text p {
@@ -154,9 +154,13 @@ body {
 
 .porto-container {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       grid-template-rows: auto auto;
       gap: 40px;
+    }
+
+    .porto-container :hover {
+        background-color: #1C252C;
     }
 
     .porto-item {
@@ -164,15 +168,52 @@ body {
         padding: 12px;
         border-radius: 8px;
         color: #e7ffff;
-        background-color: #2A2A2D;
+        background-color: #232426;
     }
 
-    .porto-container article:nth-child(3) {
-      grid-column: 1;
-    }
+    
 
     .porto-item img {
-      max-width: 100%;
+      max-width: 94%;
       height: auto;
-      display: block;
+      display: block; 
+      border-radius: 8px;
+      align-content: center;
+      margin: 0 auto;
+    }
+
+    .porto-title i {
+      margin-right: 16px;
+      font-size: 32px;
+    }
+
+    .porto-title h2 {
+      font-size: 36px;
+    }
+
+    .porto-title p {
+      font-size: 24px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    .porto-item h3 {
+      font-size: 32px;
+    }
+
+    .porto-item p {
+      font-size: 18px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    .porto-item span {
+      color: #77C1F9;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .porto-item i {
+      margin-right: 16px;
+      font-size: 32px;
     }
