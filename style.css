@@ -1,16 +1,19 @@
 body {
-    gap: 40px;
+    gap: 24px;
     display: flex;
     flex-direction: column;
     background-color: #272030;
     color: #e7ffff;
+    margin: 24px;
+    padding: 16px;
 }
 
 .logo {
     font-family: liber;
     font-weight: bold;
     font-size: 24px;
-    color: #087167;
+    color: #3498DB;
+    padding: 16px;
 }
 
 .navbar-container {
@@ -19,8 +22,6 @@ body {
     align-items: center;
     background-color: #e7ffff;
     color: #272030;
-    margin: 20px;
-    padding: 12px;
     border-radius: 8px;
     position: fixed;
     width: 93%;
@@ -34,7 +35,7 @@ body {
 .navbar li a {
     text-decoration: none;
     color: #272030;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
     margin-right: 16px;
     padding: 16px;
@@ -49,12 +50,82 @@ body {
     border-radius: 8px;
 }
 
-.profile {
-    width: 120px;
-    height: 140px;
-    border-radius: 160px;
+.home-container {
+    background: #272030;
+    background: linear-gradient(45deg, rgba(39, 32, 48, 1) 0%, rgba(52, 152, 219, 1) 100%);
+    border-radius: 8px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0px 40px 0px;
+    padding: 20px;
 }
 
-img {
-    border-radius: 8px;
+.home-container h1 {
+    font-size: 40px;
 }
+.home-container h2 {
+    font-size: 32px;
+}
+
+.home-container a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e7ffff;
+    background-color: #3498DB;
+    padding: 12px 24px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.home-container a:hover {
+    background-color: #e7ffff;
+    color: #3498DB;
+}
+
+.about-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto;
+      gap: 40px;
+    }
+
+    .about-image {
+      flex: 1 1 40%;
+    }
+
+    .about-text {
+      flex: 1 1 60%;
+    }
+
+    .about-image img {
+      max-width: 80%;
+      border-radius: 8px;
+    }
+
+.porto-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto auto;
+      gap: 40px;
+    }
+
+    .porto-item {
+        border: 1px solid #676872;
+        padding: 12px;
+        border-radius: 8px;
+        color: #e7ffff;
+        background-color: #2A2A2D;
+    }
+
+    .porto-container article:nth-child(3) {
+      grid-column: 1;
+    }
+
+    .porto-item img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
