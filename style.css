@@ -222,9 +222,9 @@ body {
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: auto;
   justify-items: center;
   margin-top: 32px;
+  margin-right: 12px;
 }
 
 .skill-item {
@@ -234,6 +234,7 @@ body {
   border-radius: 8px;
   font-weight: 800;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  
 }
 
 #porto {
@@ -332,3 +333,120 @@ body {
       margin-left: 12px;
       font-size: 14px;
     }
+
+.testi-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-top: 32px;
+  margin-right: 12px;
+}
+
+.testi-title {
+  margin-bottom: 16px;
+  color: #e7ffff;
+  margin-top: 32px;
+}
+
+.testi-title h2 {
+  font-size: 32px;
+  text-align: center;
+  margin: 8px;
+  line-height: 24px;
+}
+
+.testi-title i {
+  margin-right: 16px;
+  font-size: 32px;
+}
+
+.testi-title p {
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.testi-item {
+  background-color: #e7ffff;
+  color: #1D384B;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  font-weight: 800;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.testi-item p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 8px;
+}
+
+.testi-item cite {
+  display: block;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 16px;
+  color: #3498DB;
+  font-weight: bold;
+}
+
+.footer-container {
+  margin-top: 32px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer-container i {
+  margin-right: 16px;
+  font-size: 32px;
+}
+
+.footer-item {
+  background-color: #232426;
+  color: #e7ffff;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.footer-item h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.footer-item ul {
+  list-style: none;
+  padding: 12px;
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.footer-item li {
+  margin-bottom: 8px;
+}
+
+.footer-item a {
+  color: #e7ffff;
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.footer-item i {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.footer-item p {
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
